@@ -1,0 +1,1 @@
+Sha 256 for genesis blob is 307f6846179c257badc4e50fbf1d7d4d332b82046e6ff297bff087c5a8efe68f
