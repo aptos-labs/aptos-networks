@@ -1,6 +1,6 @@
 For bootstrapping your validator node:
 
-- The branch to use is `testnet-stable`, commit 21a6d9c1bc44ebeb5a6fcbacab62af46dff55bbc
-- The docker image tag to use is testnet-stable_21a6d9c1bc44ebeb5a6fcbacab62af46dff55bbc
-- Sha256 for the docker image is 268c3b8a4cfe086aa3b4d2e6a55d72c0818800ba017d2538083ba7fa2a35f482
+- The branch to use is `testnet`, commit 843b204dce971d98449b82624f4f684c7a18b991
+- The docker image tag to use is testnet_843b204dce971d98449b82624f4f684c7a18b991
+- Sha256 for the docker image is 0757fc2561366ce565869b82f377164317d66e118852c500239e1b4d3acb8c74
 - REST API endpoint: https://testnet.aptoslabs.com
