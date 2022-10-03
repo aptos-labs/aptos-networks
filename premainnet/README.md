@@ -1,8 +1,7 @@
 For bootstrapping your validator node:
 
-- The branch to use is mainnet, commit a0d4d788f8370fea143e5aa9fd435395b38d73d8
-- Sha256 for genesis blob is dbe5b2e0a35182c5e37feb07cd2da754a0730a7e1e6ca2f555790e173bc22bc1
-- The docker image tag to use is mainnet_a0d4d788f8370fea143e5aa9fd435395b38d73d8
-- Sha256 for the docker image is 6beed88eb8a6c14f969f699812eb356b454d4fa04760a180aa3c7626952c90dd
+- The branch to use is mainnet, commit bf4ef2c571b4265476dfd91c5a3698f0f013d292
+- Sha256 for genesis blob is 7884c9dc7c22e65f9bea6cf82781a1168455c4390498c87624d821c99eb013c0
+- The docker image tag to use is mainnet_bf4ef2c571b4265476dfd91c5a3698f0f013d292
 - REST API endpoint: https://premainnet.aptosdev.com
 - Docs to follow: https://aptos.dev/nodes/validator-node/operator/connect-to-aptos-network#bootstrapping-validator-node
