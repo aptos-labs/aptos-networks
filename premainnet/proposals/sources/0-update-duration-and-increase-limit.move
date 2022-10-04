@@ -8,7 +8,7 @@ script {
         // Update epoch interval from 1 hour to 2 hours.
         let epoch_interval_secs = 2 * 60 * 60;
         let epoch_interval_microsecs = epoch_interval_secs * 1000000;
-        block::update_epoch_interval_microsecs(&framework_signer, epoch_interval_microsecs);
+        block::update_epoch_interval_microsecs(framework_signer, epoch_interval_microsecs);
 
         // Update the per-epoch voting power increase limit from 20% to 10%.
         staking_config::update_voting_power_increase_limit(framework_signer, 10);
