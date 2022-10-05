@@ -29,7 +29,8 @@
   ```
   cargo run -p aptos -- governance propose --metadata-url <url-to-metadata-file.json> \
      --pool-address $pool_address --script-path /path/to/proposal.move \
-     --framework-local-dir /path/to/aptos-core/aptos-move/framework/aptos-framework/
+     --framework-local-dir /path/to/aptos-core/aptos-move/framework/aptos-framework/ \
+     --profile mainnet-voter
   ```
 4. To vote on a proposer, use the UI at https://governance.aptosfoundation.org/ or run
 `cargo run -p aptos -- governance vote --proposal-id <proposal-id> --pool-address $pool_address --yes/no`
