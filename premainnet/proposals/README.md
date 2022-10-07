@@ -33,7 +33,7 @@
      --profile mainnet-voter
   ```
 4. To vote on a proposer, use the UI at https://governance.aptosfoundation.org/ or run
-`cargo run -p aptos -- governance vote --proposal-id <proposal-id> --pool-address $pool_address --yes/no`
+`cargo run -p aptos -- governance vote --proposal-id <proposal-id> --pool-addresses $pool_address_1,$pool_address_2 --yes/no`
 5. To execute a proposal that has passed, in the aptos-core repo, run
   ```
   cargo run -p aptos -- governance execute-proposal --proposal-id <proposal-id> \
