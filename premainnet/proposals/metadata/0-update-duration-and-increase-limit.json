@@ -1,6 +1,0 @@
-{
-  "title":"Increase epoch duration to 2 hours and reduce per-epoch voting power increase limit to 10%",
-  "description":"Increase epoch duration from 1 hour to 2 hours and reduce per-epoch voting power increase limit from 20% to 10%",
-  "source_code_url":"https://github.com/aptos-labs/aptos-genesis-waypoint/blob/main/premainnet/proposals/sources/0-update-duration-and-increase-limit.move",
-  "discussion_url":"https://forum.aptoslabs.com/t/governance-premainnet-set-network-on-chain-config/32587"
-}

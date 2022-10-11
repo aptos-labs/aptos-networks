@@ -1,6 +1,0 @@
-{
-  "title":"Set default gas schedule",
-  "description":"Set the default gas schedule back, after experimenting emergance gas price bump.",
-  "source_code_url":"https://github.com/aptos-labs/aptos-genesis-waypoint/blob/main/premainnet/proposals/sources/2-set-default-gas-schedule.move",
-  "discussion_url":"https://forum.aptoslabs.com/t/governance-premainnet-set-network-on-chain-config/32587"
-}
