@@ -1,0 +1,6 @@
+{
+  "title":"Increase min_price_per_gas_unit to 1000",
+  "description":"To simulate emergancy gas price bump, increase min_price_per_gas_unit to 1000",
+  "source_code_url":"https://github.com/aptos-labs/aptos-genesis-waypoint/blob/main/premainnet/proposals/sources/1-update-min_price_per_gas_unit.move",
+  "discussion_url":"https://forum.aptoslabs.com/t/governance-premainnet-set-network-on-chain-config/32587"
+}
