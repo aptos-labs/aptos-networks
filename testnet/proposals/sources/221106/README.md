@@ -23,3 +23,5 @@ produced the following non-participating nodes:
 1          |  0.00%     | 100.000%   | 0          | 1          | 0          | 0          | 6bda6b1f16c5bfb2493a6e95782ba983dd5027d79057f49b44a051facf952544
 0          |  0.00%     |     NaN%   | 0          | 0          | 0          | 0          | 352eb70e6ae3f13fd132bb56a79ddaa8b1ce41e4f26f3a8dc058c737728dc474
 ```
+
+`cargo run -p aptos -- move run-script --script-path remove.move --framework-git-rev <git-rev> --profile <testnet-mint-key>`
