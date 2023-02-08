@@ -1,5 +1,5 @@
 // Framework commit hash: aptos-cli-v0.2.0-3650-gcb4ba0a
-// Builder commit hash: aptos-cli-v0.2.0-4055-gf6d4bad4ad-modified
+// Builder commit hash: aptos-cli-v0.2.0-4053-gbd7166e2fc
 // Upgrade proposal for package `AptosToken`
 
 // source digest: 9084ACFC5DD2D66A22090C6A3C32253CBD3A597C2BD11376906EA9A734DC3A1A

@@ -1,5 +1,5 @@
 // Framework commit hash: aptos-cli-v0.2.0-3650-gcb4ba0a
-// Builder commit hash: aptos-cli-v0.2.0-4055-gf6d4bad4ad-modified
+// Builder commit hash: aptos-cli-v0.2.0-4053-gbd7166e2fc
 // Upgrade proposal for package `MoveStdlib`
 
 // source digest: 7361DD6E744B239B4E07CA0F80029CC66459B9869E3B28C0867EA878EA070EB0

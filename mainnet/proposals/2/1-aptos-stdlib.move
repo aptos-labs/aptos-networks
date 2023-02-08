@@ -1,5 +1,5 @@
 // Framework commit hash: aptos-cli-v0.2.0-3650-gcb4ba0a
-// Builder commit hash: aptos-cli-v0.2.0-4055-gf6d4bad4ad-modified
+// Builder commit hash: aptos-cli-v0.2.0-4053-gbd7166e2fc
 // Upgrade proposal for package `AptosStdlib`
 
 // source digest: 89852A9668EE431FB1A84BD21D2C487027895B90CEDE08F466C31BFE14AEEDFE
