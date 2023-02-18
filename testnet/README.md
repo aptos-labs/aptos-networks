@@ -11,8 +11,8 @@
 2. Make sure you have a CLI profile for testnet-voter with the credentials for a voter account corresponding
 to a stake pool.
 3. To create a proposal on-chain, in the aptos-core repo, run
-cargo run -p aptos -- governance propose --is_multi_step true \
---metadata-url /path/to/aptos-networks/testnet/proposals/sources/v1.2.3/metadata.json \
+cargo run -p aptos -- governance propose --is-multi-step \
+--metadata-url https://raw.githubusercontent.com/aptos-labs/aptos-networks/main/testnet/proposals/sources/v1.2.3/metadata.json \
 --pool-address $pool_address \
 --script-path /path/to/aptos-networks/testnet/proposals/sources/v1.2.3/0-move-stdlib.move \
 --framework-local-dir /path/to/aptos-core/aptos-move/framework/aptos-framework/ \
