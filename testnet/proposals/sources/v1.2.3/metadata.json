@@ -1,0 +1,6 @@
+{
+  "title": "Update framework packages (move-stdlib, aptos-stdlib, aptos-framework, aptos-token) to v1.2.5",
+  "description": "Update framework packages (move-stdlib, aptos-stdlib, aptos-framework, aptos-token) to the version compiled from git hash 84a67d185df4a9c12947f6091d0c0dc3427703f1.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-networks/blob/main/testnet/proposals/sources/v1.2.3",
+  "discussion_url": "https://github.com/aptos-labs/aptos-core/issues/6669"
+}
