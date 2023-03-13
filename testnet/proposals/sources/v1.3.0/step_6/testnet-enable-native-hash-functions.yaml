@@ -1,0 +1,12 @@
+---
+testnet: true
+is_multi_step: true
+framework_release: ~
+gas_schedule: ~
+consensus_config: ~
+feature_flags:
+  enabled:
+    - multi_ed25519_pk_validate_v2_natives
+    - sha512_and_ripe_md160_natives
+    - blake2b256_native
+  disabled: []
