@@ -4,7 +4,7 @@ consensus_config:
   V2:
     decoupled_execution: true
     back_pressure_limit: 10
-    exclude_round: 40
+    exclude_round: 120
     proposer_election_type:
       leader_reputation:
         proposer_and_voter_v2:
