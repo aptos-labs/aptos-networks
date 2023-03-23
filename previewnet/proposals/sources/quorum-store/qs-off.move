@@ -1,11 +1,11 @@
-// Script hash: 11d4c091 
+// Script hash: fff74b51 
 // Consensus config upgrade proposal
 
 // config: V1(
 //     ConsensusConfigV1 {
 //         decoupled_execution: true,
 //         back_pressure_limit: 10,
-//         exclude_round: 20,
+//         exclude_round: 120,
 //         proposer_election_type: LeaderReputation(
 //             ProposerAndVoterV2(
 //                 ProposerAndVoterConfig {
@@ -34,7 +34,7 @@ script {
         let framework_signer = &core_signer;
 
         let consensus_blob: vector<u8> = vector[
-            0, 1, 10, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 2, 1,
+            0, 1, 10, 0, 0, 0, 0, 0, 0, 0, 120, 0, 0, 0, 0, 0, 0, 0, 2, 1,
             232, 3, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
             0, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0,
             0, 0, 0, 0, 1, 5, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0,
