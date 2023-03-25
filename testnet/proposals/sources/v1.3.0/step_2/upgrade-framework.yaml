@@ -3,7 +3,7 @@ testnet: true
 is_multi_step: true
 framework_release:
   bytecode_version: 6
-  git_hash: 3fc3d42b6cfe27460004f9a0326451bcda840a60
+  git_hash: 882531ab8fc9ef7074e5b21639a6cc0a02fe46af
 gas_schedule: ~
 consensus_config: ~
 feature_flags: ~
