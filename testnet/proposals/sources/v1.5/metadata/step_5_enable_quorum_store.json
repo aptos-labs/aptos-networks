@@ -1,0 +1,6 @@
+{
+  "title": "Enable Quorum Store",
+  "description": "AIP-26: Quorum Store is a production-optimized implementation of Narwhal [1], that improves consensus throughput.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/108"
+}

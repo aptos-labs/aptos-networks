@@ -1,0 +1,6 @@
+{
+  "title": "Enable charge_invariant_violation",
+  "description": "AIP-35: Charge transactions that triggered invariant violation error instead of discarding them.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/144"
+}
