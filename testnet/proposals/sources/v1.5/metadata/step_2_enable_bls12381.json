@@ -1,0 +1,6 @@
+{
+  "title": "Enable bls12381",
+  "description": "AIP-20: Support of generic cryptography algebra operations in Aptos standard library.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/94"
+}
