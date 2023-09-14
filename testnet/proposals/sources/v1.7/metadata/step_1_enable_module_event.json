@@ -1,0 +1,6 @@
+{
+  "title": "Enable module event",
+  "description": "AIP-44: The new module event framework associates every event stream with a static struct type instead of an EventHandle of current event system.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/200"
+}
