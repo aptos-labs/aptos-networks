@@ -1,0 +1,6 @@
+{
+  "title": "Enable Storage Deletion Refund",
+  "description": "AIP-32: Storage Deletion Refund. A refund for the slot allocation fee is issued on the deletion of a global state item.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/127"
+}
