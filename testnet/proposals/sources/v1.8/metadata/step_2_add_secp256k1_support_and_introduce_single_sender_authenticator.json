@@ -1,0 +1,6 @@
+{
+  "title": "AIP-49: secp256k1 ECDSA for Transaction Authentication, and AIP-55: Generalize Transaction Authentication and Support Arbitrary K-of-N MultiKey Accounts",
+  "description": "AIP-49: secp256k1 ECDSA for Transaction Authentication (Discussion URL: https://github.com/aptos-foundation/AIPs/issues/247), and AIP-55: Generalize Transaction Authentication and Support Arbitrary K-of-N MultiKey Accounts (Discussion URL: https://github.com/aptos-foundation/AIPs/issues/267).",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/247"
+}
