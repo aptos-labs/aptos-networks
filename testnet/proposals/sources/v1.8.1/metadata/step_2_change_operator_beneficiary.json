@@ -1,0 +1,6 @@
+{
+  "title": "AIP-51: Changing beneficiaries for operators",
+  "description": "AIP-51: This allows operator to change their beneficiaries.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/251"
+}
