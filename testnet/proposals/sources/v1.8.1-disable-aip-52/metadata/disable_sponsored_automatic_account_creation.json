@@ -1,0 +1,6 @@
+{
+  "title": "Disable the feature flag for AIP-52",
+  "description": "Disable the feature flag for AIP-52",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/258"
+}
