@@ -1,6 +1,6 @@
 {
-  "title": "Empty proposal for testing Govscan in-app voting",
-  "description": "",
+  "title": "GovScan.live - Integration Test",
+  "description": "Effortless Tracking of APTOS Governance Proposals. Visit https://govscan.live/aptos-proposals/",
   "source_code_url": "https://github.com/bwarelabs/aptos-networks/blob/main/testnet/proposals/sources/govscan",
   "discussion_url": "https://github.com/bwarelabs/aptos-networks/pull/1"
 }
