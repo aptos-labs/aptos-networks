@@ -1,0 +1,6 @@
+{
+  "title": "AIP-50: Change commission rates in delegation pools",
+  "description": "AIP-50: This allows delegation pool owners to change operator commission rates after delegation pool creation.",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-foundation/AIPs/issues/249"
+}
