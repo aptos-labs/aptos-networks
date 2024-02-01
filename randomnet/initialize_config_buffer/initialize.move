@@ -1,5 +1,4 @@
 script {
-    use std::vector;
     use aptos_framework::aptos_governance;
     use aptos_framework::config_buffer;
 
