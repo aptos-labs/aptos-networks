@@ -1,0 +1,15 @@
+---
+testnet: true
+remote_endpoint: ~
+name: "20240201-randomnet-framework-upgrade"
+proposals:
+  - name: step_1_upgrade_framework
+    metadata:
+      title: "Multi-step proposal to upgrade randomnet framework"
+      description: "n/a"
+    execution_mode: MultiStep
+    update_sequence:
+      - Framework:
+          bytecode_version: 6
+          git_hash: ~
+
