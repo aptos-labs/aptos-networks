@@ -1,0 +1,14 @@
+---
+remote_endpoint: ~
+name: "fix4"
+proposals:
+  - name: step_1_upgrade_framework
+    metadata:
+      title: "upgrade randnet framework"
+      description: ""
+    execution_mode: RootSigner
+    update_sequence:
+      - Framework:
+          bytecode_version: 6
+          git_hash: ~
+
