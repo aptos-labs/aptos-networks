@@ -1342,7 +1342,6 @@ script {
             114, 95, 98, 121, 116, 101, 3, 0, 0, 0, 0, 0, 0, 0,
         ];
 
-        gas_schedule::set_for_next_epoch(framework_signer, gas_schedule_blob);
-        aptos_governance::reconfigure(framework_signer);
+        gas_schedule::set_gas_schedule(framework_signer, gas_schedule_blob);
     }
 }
