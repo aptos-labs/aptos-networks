@@ -1,5 +1,5 @@
 // Script hash: a2b0e2ea 
-// Initialize AIP-28 parital governance voting.
+// Initialize AIP-28 partial governance voting.
 // This script MUST be run before enabling the feature flag, otherwise emitting the fee statement will fail.
 script {
     use aptos_framework::aptos_governance;
