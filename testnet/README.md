@@ -1,3 +1,14 @@
+# Testnet waypoints
+
+This directory contains the genesis blob and waypoints for Testnet. There are currently two waypoints available:
+- `genesis_waypoint.txt`: The genesis waypoint, i.e., the waypoint for the genesis transaction at version `0`.
+- `waypoint.txt`: A recent waypoint taken at version `1836949986`, epoch `15870`, on `06/27/2024`.
+
+For operators running Testnet nodes, we recommend using the most recent waypoint (this is the default selection
+when following the developer documentation at: [aptos.dev](https://aptos.dev/en)). Using the most recent waypoint
+will help to improve the security of your node (e.g., by preventing long-range attacks), and allow it to select
+the most optimal syncing target when bootstrapping (improving syncing efficiency).
+
 # For bootstrapping your validator node:
 
 - The branch to use is `testnet`, commit 8f0cbd9396264cdce520d2e1002424b1592c576f
