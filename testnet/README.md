@@ -9,14 +9,6 @@ when following the developer documentation at: [aptos.dev](https://aptos.dev/en)
 will help to improve the security of your node (e.g., by preventing long-range attacks), and allow it to select
 the most optimal syncing target when bootstrapping (improving syncing efficiency).
 
-# For bootstrapping your validator node:
-
-- The branch to use is `testnet`, commit 8f0cbd9396264cdce520d2e1002424b1592c576f
-- The docker image tag to use is testnet_8f0cbd9396264cdce520d2e1002424b1592c576f
-- Sha256 for the docker image is a3c6ec71d747cbc026b563e3c1778434abf51a548757cb3bff3bc51c004601a6
-- REST API endpoint: https://testnet.aptoslabs.com
-- Docs to follow: https://aptos.dev/nodes/ait/connect-to-testnet
-
 # Submitting framework upgrades on testnet
 1. Download the aptos-core Github repo and make sure you're on the main branch: https://github.com/aptos-labs/aptos-core
 2. Make sure you have a CLI profile for testnet-voter with the credentials for a voter account corresponding
