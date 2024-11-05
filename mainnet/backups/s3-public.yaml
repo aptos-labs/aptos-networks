@@ -1,6 +1,6 @@
 env_vars:
   - key: BUCKET
-    value: aptos-mainnet-backup-backup-831a69a8
+    value: aptos-mainnet-backup-backup-6addc21b
   - key: SUB_DIR
     value: e1
 commands:
@@ -17,4 +17,4 @@ commands:
     exec 1>&-
     gzip -c | aws s3 cp - "s3://$BUCKET/$SUB_DIR/$FILE_HANDLE" --no-sign-request
   list_metadata_files: '(aws s3 ls s3://$BUCKET/$SUB_DIR/metadata/ --no-sign-request ||:) | sed -ne "s#.* \(.*\)#metadata/\1#p"'
-  backup_metadata_file: 'aws s3 mv s3://$BUCKET/$SUB_DIR/metadata/$FILE_NAME s3://$BUCKET/$SUB_DIR/metadata_backup/$FILE_NAME --no-progress --no-sign-request'
+  backup_metadata_file: "aws s3 mv s3://$BUCKET/$SUB_DIR/metadata/$FILE_NAME s3://$BUCKET/$SUB_DIR/metadata_backup/$FILE_NAME --no-progress --no-sign-request"
