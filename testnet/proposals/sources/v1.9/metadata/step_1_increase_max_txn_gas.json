@@ -1,0 +1,6 @@
+{
+  "title": "Increase max txn gas temporarily for framework upgrade and update gas schedule (AIP-58)",
+  "description": "Increase max txn gas temporarily for framework upgrade and update gas schedule (AIP-58)",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-labs/aptos-core"
+}
