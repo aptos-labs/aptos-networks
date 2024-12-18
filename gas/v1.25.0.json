@@ -527,7 +527,7 @@
     ],
     [
       "txn.max_execution_gas.gov",
-      4300000000
+      4000000000
     ],
     [
       "txn.max_io_gas",
