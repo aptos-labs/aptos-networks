@@ -1,0 +1,14 @@
+---
+remote_endpoint: ~
+name: "fix3.2"
+proposals:
+  - name: step_1_increase_max_txn_gas
+    metadata:
+      title: "Increase max txn gas temporarily for framework upgrade"
+      description: "Increase max txn gas temporarily for framework upgrade"
+    execution_mode: RootSigner
+    update_sequence:
+      - DefaultGasWithOverride:
+          - name: "txn.max_execution_gas"
+            value: 4000000000
+
