@@ -1,6 +1,6 @@
 env_vars:
 - key: BUCKET
-  value: aptos-testnet-backup
+  value: aptos-testnet-backup-usce1
 - key: SUB_DIR
   value: e1
 commands:
