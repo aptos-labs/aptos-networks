@@ -1,6 +1,6 @@
 env_vars:
 - key: BUCKET
-  value: aptos-mainnet-backup-usce1
+  value: aptos-mainnet-backup-euwe4
 - key: SUB_DIR
   value: e1
 commands:
