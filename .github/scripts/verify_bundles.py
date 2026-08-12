@@ -23,11 +23,11 @@ import sys
 TOOL = os.environ.get("RELEASE_TOOL", "target/release/aptos-release-tool")
 NETWORKS_ROOT = os.environ.get("NETWORKS_ROOT", "aptos-networks")
 
-def summary(line: str) -> None:
+def write_summary(lines: list[str]) -> None:
     step_summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if step_summary:
         with open(step_summary, "a") as f:
-            f.write(line + "\n")
+            f.write("\n".join(lines) + "\n")
 
 
 def main() -> int:
@@ -36,11 +36,7 @@ def main() -> int:
         print("no bundles to verify")
         return 0
 
-    summary("## Release bundle verification")
-    summary("")
-    summary("| Bundle | Result |")
-    summary("|---|---|")
-
+    summary = ["## Release bundle verification", "", "| Bundle | Result |", "|---|---|"]
     failed = []
     for name in bundles:
         bundle_dir = os.path.join(NETWORKS_ROOT, "framework-releases", name)
@@ -49,12 +45,13 @@ def main() -> int:
         print("::endgroup::", flush=True)
 
         if result.returncode == 0:
-            summary(f"| `{name}` | ✅ verified, signed off |")
+            summary.append(f"| `{name}` | ✅ verified, signed off |")
         else:
-            summary(f"| `{name}` | ❌ failed |")
+            summary.append(f"| `{name}` | ❌ failed |")
             print(f"::error::verify-bundle --require-signoff failed for framework-releases/{name}")
             failed.append(name)
 
+    write_summary(summary)
     if failed:
         print(f"failed bundles: {' '.join(failed)}")
         return 1
