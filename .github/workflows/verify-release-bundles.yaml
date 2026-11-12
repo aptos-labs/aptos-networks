@@ -1,0 +1,67 @@
+# Blocking CI for release bundles (framework-releases/<version>/), to mandate
+# sign-offs (all checkboxes ticked in summaries) before merging.
+
+name: "Require Release Bundle Sign-Offs"
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-release-bundles-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  detect-bundle-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      any: ${{ steps.detect.outputs.any }}
+      bundles: ${{ steps.detect.outputs.bundles }}
+    env:
+      BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # Full history so the base...head diff works regardless of PR age.
+          fetch-depth: 0
+
+      - name: Detect changed bundles
+        id: detect
+        run: python3 .github/scripts/detect_changed_bundles.py
+
+  verify-release-bundles:
+    needs: detect-bundle-changes
+    # Skipped (= passing, for required status checks) unless the PR touches a
+    # bundle. `always()` is not wanted here: if detect fails, this job must
+    # not silently pass, and detect's own failure already blocks the PR.
+    if: needs.detect-bundle-changes.outputs.any == 'true'
+    runs-on: runs-on,cpu=64,family=c7,disk=large,image=aptos-ubuntu22-x64,run-id=${{ github.run_id }}
+    env:
+      BUNDLES: ${{ needs.detect-bundle-changes.outputs.bundles }}
+    steps:
+      - name: Checkout aptos-core
+        uses: actions/checkout@v6
+        with:
+          repository: aptos-labs/aptos-core
+          ref: main
+
+      # Nested inside the aptos-core checkout; must run after it, since
+      # checking out into the workspace root deletes existing contents.
+      - name: Checkout the PR
+        uses: actions/checkout@v6
+        with:
+          path: aptos-networks
+
+      - name: Rust setup
+        uses: aptos-labs/aptos-core/.github/actions/rust-setup@main
+        with:
+          ADDITIONAL_KEY: verify-release-bundles
+
+      - name: Build aptos-release-tool
+        run: cargo build --release -p aptos-release-tool
+
+      - name: Verify bundles (integrity + sign-off)
+        run: python3 aptos-networks/.github/scripts/verify_bundles.py

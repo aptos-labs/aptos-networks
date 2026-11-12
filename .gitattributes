@@ -2,3 +2,5 @@ testnet/digest_key.bin filter=lfs diff=lfs merge=lfs -text
 testnet/pp.bin filter=lfs diff=lfs merge=lfs -text
 devnet/digest_key.bin filter=lfs diff=lfs merge=lfs -text
 devnet/pp.bin filter=lfs diff=lfs merge=lfs -text
+mainnet/digest_key.bin filter=lfs diff=lfs merge=lfs -text
+mainnet/pp.bin filter=lfs diff=lfs merge=lfs -text

@@ -1,6 +1,8 @@
 # Testnet waypoints
 
-This directory contains the genesis blob and waypoints for Testnet. There are currently two waypoints available:
+This directory contains the genesis blob and waypoints for Testnet V1,
+which was decommissioned on 2026-10-07 and replaced by V2.
+There are two waypoints available:
 - `genesis_waypoint.txt`: The genesis waypoint, i.e., the waypoint for the genesis transaction at version `0`.
 - `waypoint.txt`: A recent waypoint taken at version `1836949986`, epoch `15870`, on `06/27/2024`.
 
