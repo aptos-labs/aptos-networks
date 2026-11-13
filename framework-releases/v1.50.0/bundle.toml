@@ -1,0 +1,34 @@
+format_version = 1
+
+[bundle]
+name = "aptos-framework-v1.50.0"
+created_at = "2026-11-13T19:28:09Z"
+
+[source]
+branch = "aptos-release-v1.50"
+commit = "ff1a008e94f137ad0dd6052caf39d17d43e7e42c"
+
+[integrity]
+digest = "2056194e40d69c3d8b69e0cca0f2dbeb8c9fbf0e7230a86ef86c2ea78fd91cae"
+
+[checksums]
+"bytecode/0-gas-schedule.mv" = "cfc64beb02a55bbce4f6047b31e1544f23b22b003b20c4dfc03efeb2171a66ac"
+"bytecode/1-move-stdlib.mv" = "cb0ddf4bd32d0a8ba2bf9a4d53be281b10f965e6ba3725a710cbbd37b00a1a68"
+"bytecode/2-aptos-stdlib.mv" = "a41476b2c5671897e43de64c176f826efa6ae0c0be4573df7e0c4b38b18ef153"
+"bytecode/3-aptos-framework.mv" = "ae684966f85b4d2100c7eeed95aa7c3a03ef0b623ba50732d8f8e1337d2d8a9f"
+"bytecode/4-aptos-token.mv" = "c84330b8f615abd4b4a82ff6c728873c3e8231875784d18ad561f33d89a5b185"
+"bytecode/5-aptos-token-objects.mv" = "ddd4aba109b62ca8cfd19752a0bb7c3e83b626c56a25f9ce299c493aaac305c3"
+"bytecode/6-aptos-trading.mv" = "4423918af1eb36857be221ca8284972ad9dc0184e2fe4e633c5955c17a732265"
+"config.yaml" = "1246232cd7ba6483163577c07e28863ce79b192c3a7e404abf022add3ccc54df"
+"gas/new.json" = "cee975d30b6c10255079eaa87cbb3ac366f58b2ae470b486feb7afc2f67689f3"
+"gas/old.json" = "1f6a752dc79ce2be85452d9819903cfc2471b1bf63d9d2a4243f24e01ce420b9"
+"metadata.json" = "769b9424061a21527c1ef71895a03aaa21fea3f2a1b56bdcd8a4c97ebea5b13f"
+"scripts/0-gas-schedule.move" = "a15aba2367877f89f00c65f7003e538c703f0cbeae82b1790811dadbe886024f"
+"scripts/1-move-stdlib.move" = "667666537e5c5c494fb792ebe521b4b8e25b4527a2bfaa107c22f458c859fc6f"
+"scripts/2-aptos-stdlib.move" = "7004e35da02497c9ad2f5c3008e6b3349e24a7f2ebf383e85b94c75eb386dc0e"
+"scripts/3-aptos-framework.move" = "b3c31977d1196e451654900b586317b218eb3c3fdf67f4587982a33cd6b43280"
+"scripts/4-aptos-token.move" = "07745ed1b6f2064dfdd843e08e3d9ff53b73358b384aeb6883504a8882d2c73c"
+"scripts/5-aptos-token-objects.move" = "34be589d8d9cbfd70d149bd0190d5020c22621c2f7699b8392d130878babbb80"
+"scripts/6-aptos-trading.move" = "f3593e2a780d3e858b39615ccd0d85eb17227d461c257fd770d54068bb508124"
+"summary/feature-flags.md" = "c6ecb3ca92d45f68ed19aa44af20b35d1f81e953c0a271a60c327c7d2fdaa496"
+"summary/gas-schedule-changes.md" = "24be0f749a7966b53e203cba7c6ff3cb19a3ce652809a4e5604421ad3b2a5398"
