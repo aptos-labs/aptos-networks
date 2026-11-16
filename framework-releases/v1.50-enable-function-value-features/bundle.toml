@@ -1,0 +1,19 @@
+format_version = 1
+
+[bundle]
+name = "v1.50-enable-function-value-features"
+created_at = "2026-11-16T23:20:35Z"
+
+[source]
+branch = "george/v1.50-enable-function-value-features"
+commit = "e82beaf37b09320300a1ff2dd4ca1c574b3505f4"
+
+[integrity]
+digest = "b711af493ccf2bc269eea7d4f0b190d5f1b5166e9ff26442e13a0aa027fd96b6"
+
+[checksums]
+"bytecode/0-features.mv" = "25daa601ef09f46643a474c69388cbf88f0f0c711ef7c3828914e03ae082c3c2"
+"config.yaml" = "4cecc7f5f061360d2e8ffa7ccddea743d61ae7199375931050db10dc452a5285"
+"metadata.json" = "676efcefc65b7c1b3100e2d40821452b4f61f1c36541fa69ed74f01ab110cff8"
+"scripts/0-features.move" = "402b20854be576346a2328e0340eae3b1d7c0308bbe410ab26fe2c6bf0a50d50"
+"summary/feature-flags.md" = "5122f91cbe90fc8959204d20a5cc9bfa0276f0e1b12b73191661e6082ddc86a2"

@@ -1,0 +1,6 @@
+{
+  "title": "Enable function reflection, function value dispatch, lazy module initialization, and function type ability checks",
+  "description": "Enables ENABLE_FUNCTION_REFLECTION (105), FUNCTION_VALUE_DISPATCH (125), LAZY_MODULE_INITIALIZATION (127), and CHECK_FUNCTION_TYPE_ABILITIES (129).",
+  "source_code_url": "https://github.com/aptos-labs/aptos-core",
+  "discussion_url": "https://github.com/aptos-labs/aptos-core"
+}
